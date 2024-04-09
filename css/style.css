@@ -559,7 +559,7 @@ Header section
 
 @media(max-width:334px){
 	.logo{
-		width: 120px;
+		width: 145px;
 	}
 }
 
@@ -818,12 +818,25 @@ Footer section
 
 .footer-section {
 	padding: 100px 0 0;
-	background: #22242b;
+	background: #ffffff;
+	border-top: #000000 solid 1px;
 }
 
 .footer-section p {
 	font-style: italic;
 	margin-bottom: 40px;
+}
+
+.fa-facebook{
+	color: rgb(0, 140, 255);
+}
+
+.fa-instagram{
+  color: #e71d1d;
+}
+
+.fa-whatsapp{
+	color: green;
 }
 
 .footer-logo {
